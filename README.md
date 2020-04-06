@@ -1,6 +1,46 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
+
+
+
+
+This project is a website for promoting Romanian Language courses available for both 
+primary and secondary school students. It's aim is to provide information about the 
+Romanian Language, Culture, and Civilization course fully financed by the Romanian 
+Language Institute in Buckarest. Parents and students will find information about
+the process of introducing the course in their school, the contetnts of the course, 
+and everything else there is to know about it. 
+
+It also aims to give information for students who are preparing for the Leaving
+Certificate exam that each 
+
+Summer Camps
+
+Useful links
+
+
+
+Features:
+- infromation about Romanian Language
+- Quotes about Romanian Language
+- Photos about Summer Camps
+- Social Media
+- Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome csababorzasi,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
