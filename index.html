@@ -7,17 +7,41 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
     <title>Study Romanian | Learn Romanian in Your School</title>
   </head>
   <body>
-    <article class="container">
+    <!--Navbar-->
+
+        <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+            <a href="/" class="navbar-brand">
+                    Study Romanian</a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="about">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="romanian-class">Romanian Classes</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="leaving-cert">Leaving Cert</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="summer-camp">Summer Camp</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact">Contact</a></li>
+                </ul>
+            </div>
+        
+        <!--</div>-->
+        </nav>
+    <!--/.Navbar-->
+    
+    <article class="container mt-3">
     <!-- Wellcome -->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1 class="text-uppercase">Welcome to Romanian!</h1>
-                        <p class="lead">We offer free Romanian Language classes for free throughout Ireland.</p>
+                        <p class="lead">We offer free Romanian Language classes throughout Ireland.</p>
                         <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Get in touch!</button>
                 </section>
             </div>
@@ -28,14 +52,18 @@
     <!-- Quote -->
         <section class="quote">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase">Quote:</h2>
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Inspiration:</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
                     <blockquote class="blockquote">
-                        <!-- Image - multi-ethnic-transylvania.jpeg -->
+                        <div class="responsive">
+                            <a target="_blank" href="img_multi-ethnic-transylvania.jpg">
+                                <img src="assets/images/multi-ethnic-transylvania.jpg" class="" width="320">
+                            </a>
+                        </div>
                     </blockquote>
                 </div>
                 <div class="col-12 col-md-6">
@@ -55,53 +83,113 @@
     <!-- /.Quote -->
     <hr>
 
-    <!-- Features -->
-        <section class="features">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase">Features:</h2>
-                </div>
+    <!-- Card Deck (bootstrap) -->
+    <div class="row">
+        <div class="col-12 my-5">
+            <h2 class="text-uppercase">Features:</h2>
+        </div>
+    </div>
+    <div class="card-deck">
+        <div class="card">
+            <img src="assets/images/school-children.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Study Romanian in your School</h5>
+                    <p class="card-text">The home language is the first language your child learns and plays a very 
+                    important role in the developement of your child's brain. Besides helping 
+                    hildren learn other languages and school subjects easier, it can help a lot
+                    to connect to their wider family, grandparents for example. You can introduce
+                    the Romanian Language, Culture, and Civilization course in your school child's 
+                    school.</p>
+                    <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3>Study Romanian in your School</h3>
-                        <p>The home language is the first language your child learns and plays a very 
-                        important role in the developement of your child's brain. Besides helping 
-                        children learn other languages and school subjects easier, it can help a lot
-                        to connect to their wider family, grandparents for example. You can introduce
-                        the Romanian Language, Culture, and Civilization course in your school child's 
-                        school.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/exam.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Choose Romanian for Leaving Cert</h5>
+                    <p class="card-text">Why don't you choose your native language as one of the Leaving Certificate 
+                    subjects? As a higher level extra subject, it could give you a great advantage 
+                    and extra points. Strat preparing now!</p>
+                    <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3>Choose Romanian for Leaving Cert</h3>
-                        <p>Why don't you choose your native language as one of the Leaving Certificate 
-                        subjects? As a higher level extra subject, it could give you a great advantage 
-                        and extra points. Strat preparing now!</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/campfire.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Enroll for the Romanian Summer Camp</h5>
+                    <p class="card-text">The Romanian Summer Camp takes places between June 29 and July 10, 
+                    and is for secondary school students, aged between 12-17 years of age. .</p>
+                    <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3>Enroll for the Romanian Summer Camp</h3>
-                        <p>The Romanian Summer Camp takes places between June 29 and July 10, 
-                        and is for secondary school students, aged between 12-17 years of age. .</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!-- /.Features -->
-    <hr>
+        </div>
+    </div>
+    <!-- /.Card Deck -->
     </article>
+    <hr>
+
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">
+                    Full Stack Webdeveloper. Skilled in everything from HTML to Heroku. 
+                    The capacity for structural and design thinking
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Need a printable version of my CV? Download it here.
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf"> 
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class=" fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class=" fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class=" fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">linkedin</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class=" fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class=" fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class=" fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
